@@ -1,0 +1,836 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>NEWS & VIEWS (DEMO 2)</title>
+    <style>
+      
+      .left-title {
+        text-align: left;
+      }
+      .right-title {
+        text-align: right;
+      }
+      .header-container {
+        position: relative;
+      }
+      .header-bg {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        right: 0;
+        opacity: 1;
+        background-image: url("./images/map.02-01.jpg");
+        background-size: cover;
+      }
+      .underline-main-title {
+          background-image: linear-gradient(90deg,#ffc107,#ffc107);
+          border: 0;
+          display: block;
+          height: 12px;
+          border-radius: 0px;
+          margin: 0 0 2rem;
+          width: 100%;
+      }
+
+.team .member {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+.team .member .member-info {
+    position: absolute;
+    bottom: -75px;
+    left: 20px;
+    right: 20px;
+    background: linear-gradient( 
+360deg, #ffc10752 0%, rgb(6 60 74) 35%, rgb(49 94 103 / 68%) 70%, rgb(48 93 102 / 95%) 35%);
+    padding: 15px 0;
+    border-radius: 4px;
+}
+.team .member img {
+    transition: all ease-in-out 0.4s;
+    width: 100%;
+}
+.team .member:hover img {
+    transform: scale(1.1);
+}
+.team .member .pic {
+    border-radius: 4px;
+    overflow: hidden;
+}
+.team .member h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 10px;
+}
+.team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+}
+.team .member .social {
+    margin-top: 15px;
+}
+.team .member {
+    text-align: center;
+    position: relative;
+    width: 90%;
+    margin: 0 auto 140px;
+}
+.articles .article .social a {
+    transition: color 0.3s;
+    color:  #fff;
+}
+.articles .article .social a:hover {
+    color: #ffc107;
+}
+.articles .article .social i {
+    font-size: 16px;
+    margin: 0 2px;
+}
+.underline-titl {
+  background-image: linear-gradient( 
+90deg,#ffc107a6,#2f5a65e0);
+    border: 0;
+    display: block;
+    height: 4px;
+    border-radius: 4px;
+    margin: 0 0 2rem;
+    width: 100px;
+}
+.article-title h4{
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.article:hover .article-title h4 { transition: all .4s ease-in-out; }
+.article:hover .article-title h4 { transform: scale(1.01);}
+.article .article-title h4 a:hover { transition: all .4s ease-in-out; }
+.article .article-title h4 a:hover { color: #40bbc5; text-decoration: underline !important;}
+    </style>
+  </head>
+  <body>
+    
+
+    <div class="background-img" id="background-img" ></div>
+          
+    
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    <div class="container-fluid header-container">
+      <div class="header-bg"></div>
+      <div class="row" style="position: relative;" >
+        <div class="d-block d-sm-none" 
+        style="position: absolute; width: 70%; height: 100%;  z-index: 1;"></div>
+        <div class="col-2 col-sm-4 col-md-3"></div>
+        
+        <div class="banner-height" style="height: 100vh; z-index: -1;">
+
+        </div>
+      </div>
+    </div>
+    <div class="main-title">
+      <div class="main-title-bg" id="mainTitle">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 left-title">
+              <h1>NEWS</h1>
+            </div>
+            <div class="col-6 right-title">
+              <h1>VIEWS</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="underline-main-title">
+    </div>
+    <header class="site-navbar site-navbar-target py-4" role="banner" >
+
+      <div class="container-fluid">
+        <div class="row align-items-center position-relative">
+
+          <div class="col-9 col-sm-5 col-md-4">
+            <div class="site-logo">
+              <a href="index.html" class="font-weight-bold text-white">
+                <img src="./images/main-logo.png" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-3 col-sm-7 col-md-8 text-right align-self-start">
+            
+
+            <span class="d-inline-block d-lg-block"><a href="#" class="text-black site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-white"></span></a></span>
+
+            
+
+            <nav class="site-navigation text-right ml-auto d-none d-lg-none" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">CCSi Africa</a></li>
+                <li><a href="#" class="nav-link">Training</a></li>
+                <li><a href="#" class="nav-link">Best Practices Guide</a></li>
+                <li><a href="#" class="nav-link">Gender Violence</a></li>
+                <li><a href="#" class="nav-link">Cyber Security</a></li>
+                <li><a href="#" class="nav-link">Maritime Security</a></li>
+                <li class="active"><a href="news_views 002.html" class="nav-link">News and Views</a></li>
+                <li><a href="#" class="nav-link">Research</a></li>
+                <li><a href="#" class="nav-link">About Us</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          
+        </div>
+      </div>
+
+    </header>
+    
+    <div class="news" data-aos="fade-up" data-aos-duration="4000">
+      <div class="container-fluid pb-5">
+        <div class="row justify-content-md-center my-5" style="box-shadow: 0 1px 2px -2px rgb(255 255 255 / 72%);">
+          <div class="col-md-10">
+            <div class="title">
+              <h1 class="section-title mt-5">
+                NEWS AND VIEWS
+              </h1>
+              <hr class="underline-titl">
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="mb-5">
+              <p>CCSI brings together experts who speak to a broad range of sanctions policy, implementation and technical compliance approaches in articles and media reports.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div id="particles-js" style="height: 100%; position: absolute;"></div>
+    <div style="position: absolute;">
+    <div class="news-side ml-5 font-italic">
+      <div class="title">
+        <h3 class="section-title">
+          NEWS
+        </h3>
+      </div>
+      <div class="description mb-5 p-2 p-md-3">
+        <p class="mb-3"><a href="https://www.nytimes.com/2021/08/30/world/asia/north-korea-yongbyon-nuclear-plant.html" target="_blank">
+          North Korea Restarted Plutonium-Producing Reactor, U.N. Agency Warns
+        </a></p>
+        <p><a href="https://www.atlanticcouncil.org/blogs/new-atlanticist/they-arent-listed-but-make-no-mistake-the-un-has-sanctions-on-the-taliban/" target="_blank">
+          They aren’t listed, but make no mistake, the UN has sanctions on the Taliban.
+        </a></p>
+      </div>
+    </div>
+    <div class="news-main team mr-3 d-none">
+      
+      <div class="row mb-5">
+        <div class="col-12">
+          <div class="title">
+            <h1 class="section-title text-center">
+              EXPERTS/AUTHORS
+            </h1>
+            <hr class="underline-titl mx-auto">
+          </div>
+        </div>
+      </div>
+      
+      <!-- <div class="row">
+        <div class="col-md-6">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-9">
+              <div class="row mb-3 mb-sm-5">
+                <div class="col-3">
+                  <div class="profile">
+                    <a href=""><img src="./images/Thomas (sqr).jpg" width="100%" alt=""></a>
+                  </div>
+                </div>
+                <div class="col-9 remove-left-padding">
+                  <a href="#">
+                    <div class="name">
+                      <h4>
+                        Thomas Bifwoli
+                      </h4>
+                    </div>
+                    <div class="position">
+                      <p>
+                        Board Member and Chief Executive Officer, CCSI Africa
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-9">
+              <div class="row mb-3 mb-sm-5">
+                <div class="col-3">
+                  <div class="profile">
+                    <a href=""><img src="./images/RC.jpg" width="100%" alt=""></a>
+                  </div>
+                </div>
+                <div class="col-9 remove-left-padding">
+                  <a href="#">
+                    <div class="name">
+                      <h4>
+                        Enrico Carisch
+                      </h4>
+                    </div>
+                    <div class="position">
+                      <p>
+                        Board Member and Managing Director, Treasurer and Secretary
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-9">
+              <div class="row mb-3 mb-sm-5">
+                <div class="col-3">
+                  <div class="profile">
+                    <a href=""><img src="./images/John-Holmes-sqr-146x146.jpg" width="100%" alt=""></a>
+                  </div>
+                </div>
+                <div class="col-9 remove-left-padding">
+                  <a href="#">
+                    <div class="name">
+                      <h4>
+                        John Holmes
+                      </h4>
+                    </div>
+                    <div class="position">
+                      <p>
+                        Senior Expert Trainer, Marine and Port Security
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-9">
+              <div class="row mb-3 mb-sm-5">
+                <div class="col-3">
+                  <div class="profile">
+                    <a href=""><img src="./images/imgpsh_fullsize-146x146.jpg" width="100%" alt=""></a>
+                  </div>
+                </div>
+                <div class="col-9 remove-left-padding">
+                  <a href="#">
+                    <div class="name">
+                      <h4>
+                        Mark McFalls
+                      </h4>
+                    </div>
+                    <div class="position">
+                      <p>
+                        Senior Expert Trainer, Criminal Investigations and Enforcement
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-9">
+              <div class="row mb-3 mb-sm-5">
+                <div class="col-3">
+                  <div class="profile">
+                    <a href=""><img src="./images/Loraine-Rickard-Martin-aqr-146x146.jpg" width="100%" alt=""></a>
+                  </div>
+                </div>
+                <div class="col-9 remove-left-padding">
+                  <a href="#">
+                    <div class="name">
+                      <h4>
+                        Loraine Rickard-Martin
+                      </h4>
+                    </div>
+                    <div class="position">
+                      <p>
+                        Board Chair and Chief Executive Officer
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-9">
+              <div class="row mb-3 mb-sm-5">
+                <div class="col-3">
+                  <div class="profile">
+                    <a href=""><img src="./images/Hans-Jakob-Schindler-146x146.jpg" width="100%" alt=""></a>
+                  </div>
+                </div>
+                <div class="col-9 remove-left-padding">
+                  <a href="#">
+                    <div class="name">
+                      <h4>
+                        Hans-Jakob Schindler
+                      </h4>
+                    </div>
+                    <div class="position">
+                      <p>
+                        Board Member and Senior Expert Trainer on Iran and international Terrorism
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="list">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 listItem" >
+                <a href="">
+                    <div class="member">
+                        <div class="pic"><img src="images/Thomas (sqr).jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Thomas Bifwoli</h4>
+                            <span>Board Member and Chief Executive Officer, CCSI Africa</span>
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 listItem" >
+                <a href="">
+                    <div class="member">
+                        <div class="pic"><img src="images/RC.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Enrico Carisch</h4>
+                            <span>Board Member and Managing Director, Treasurer and Secretary</span>
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 listItem" >
+                <a href="">
+                    <div class="member">
+                        <div class="pic"><img src="images/John-Holmes-sqr-146x146.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Dr. John Holmes</h4>
+                            <span>Senior Expert Trainer, Marine and Port Security</span>
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 listItem" >
+                <a href="">
+                    <div class="member">
+                        <div class="pic"><img src="images/imgpsh_fullsize-146x146.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Mark McFalls</h4>
+                            <span>Senior Expert Trainer, Criminal Investigations and Enforcement</span>
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 listItem" >
+                <a href="">
+                    <div class="member">
+                        <div class="pic"><img src="images/Loraine-Rickard-Martin-aqr-146x146.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Loraine Rickard-Martin</h4>
+                            <span>Board Chair and Chief Executive Officer</span>
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </a> 
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 listItem" >
+                <a href="">
+                    <div class="member">
+                        <div class="pic"><img src="images/Hans-Jakob-Schindler-146x146.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Dr. Hans-Jakob Schindler</h4>
+                            <span>Board Member and Senior Expert Trainer on Iran and international Terrorism</span>
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 listItem" >
+              <a href="">
+                  <div class="member">
+                      <div class="pic"><img src="images/Maiko-Tackeuchi-sqr-146x146.jpg" class="img-fluid" alt=""></div>
+                      <div class="member-info">
+                          <h4>Maiko Takeuchi</h4>
+                          <span>Senior Expert Trainer, Weapons of Mass Destruction and Strategic Trade Control</span>
+                          <div class="social">
+                              <a href=""><i class="fab fa-twitter"></i></a>
+                              <a href=""><i class="fab fa-facebook"></i></a>
+                              <a href=""><i class="fab fa-instagram"></i></a>
+                              <a href=""><i class="fab fa-linkedin"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 listItem" >
+            <a href="">
+                <div class="member">
+                    <div class="pic"><img src="images/Ashley-Taylor-146x146.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>Ashley Taylor</h4>
+                        <span>Senior Expert Trainer, Cybersphere and Sanctions</span>
+                        <div class="social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 listItem" >
+          <a href="">
+              <div class="member">
+                  <div class="pic"><img src="images/NW-2-146x146.jpg" class="img-fluid" alt=""></div>
+                  <div class="member-info">
+                      <h4>Neil Watts</h4>
+                      <span>Senior Expert Trainer, Maritime Security and Surface Weapons Systems</span>
+                      <div class="social">
+                          <a href=""><i class="fab fa-twitter"></i></a>
+                          <a href=""><i class="fab fa-facebook"></i></a>
+                          <a href=""><i class="fab fa-instagram"></i></a>
+                          <a href=""><i class="fab fa-linkedin"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </a>
+      </div>
+            
+            
+        </div>
+            
+      </div>
+      
+     
+    </div>
+    <div class="new-main team mr-3">
+      <div class="row">
+        <div class="col-12">
+          <div class="title">
+            <h1 class="section-title text-center">
+              EXPERTS/AUTHORS
+            </h1>
+            <hr class="underline-titl mx-auto">
+          </div>
+        </div>
+      </div>
+      <div class="row articles pl-5">
+        <div class="col-9 my-5 article left-article align-self-end">
+          <div class="article-title rounded-top p-3" style="background: #2e5b65d1">
+            <h4><a target="_blank" href="https://www.worldecr.com/archive/sanctions-gender-violence-and-the-security-council-time-for-a-rethink/">Sanctions, gender violence and the Security Council-- time for a rethink?</a></h4>
+            <h4><a href="https://www.worldecr.com/archive/the-quagmire-of-the-taliban-sanctions-carrot-and-carrot/" target="_blank">
+              The quagmire of the Taliban sanctions: Carrot and carrot?</a></h4>
+          </div>
+          <div class="article-author" style="background: #2e5b6540">
+            <div class="row p-2">
+              <div class="col-sm-2 text-right">
+                <img class="rounded-circle" width="60%" src="images/RC.jpg" alt="">
+              </div>
+              <div class="col-sm-10 pt-2">
+                <div class="author-name">
+                  Enrico Carisch
+                </div>
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 my-5 mx-auto article left-article align-self-end">
+          <div class="article-title rounded-top p-3" style="background: #2e5b65d1">
+            <h4><a target="_blank" href="https://www.worldecr.com/archive/sanctions-gender-violence-and-the-security-council-time-for-a-rethink/">Sanctions, gender violence and the Security Council-- time for a rethink?</a></h4>
+            <h4><a href="https://www.worldecr.com/archive/the-quagmire-of-the-taliban-sanctions-carrot-and-carrot/" target="_blank">
+              The quagmire of the Taliban sanctions: Carrot and carrot?</a></h4>
+          </div>
+          <div class="article-author" style="background: #2e5b6540">
+            <div class="row p-2">
+              <div class="col-sm-2 text-right">
+                <img class="rounded-circle" width="60%" src="images/RC.jpg" alt="">
+              </div>
+              <div class="col-sm-10 pt-2">
+                <div class="author-name">
+                  Enrico Carisch
+                </div>
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 my-5 article left-article align-self-end">
+          <div class="article-title rounded-top p-3" style="background: #2e5b65d1">
+            <h4><a target="_blank" href="https://www.worldecr.com/archive/sanctions-gender-violence-and-the-security-council-time-for-a-rethink/">Sanctions, gender violence and the Security Council-- time for a rethink?</a></h4>
+            <h4><a href="https://www.worldecr.com/archive/the-quagmire-of-the-taliban-sanctions-carrot-and-carrot/" target="_blank">
+              The quagmire of the Taliban sanctions: Carrot and carrot?</a></h4>
+          </div>
+          <div class="article-author" style="background: #2e5b6540">
+            <div class="row p-2">
+              <div class="col-sm-2 text-right">
+                <img class="rounded-circle" width="60%" src="images/RC.jpg" alt="">
+              </div>
+              <div class="col-sm-10 pt-2">
+                <div class="author-name">
+                  Enrico Carisch
+                </div>
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 my-5 mx-auto article left-article align-self-end">
+          <div class="article-title rounded-top p-3" style="background: #2e5b65d1">
+            <h4><a target="_blank" href="https://www.worldecr.com/archive/sanctions-gender-violence-and-the-security-council-time-for-a-rethink/">Sanctions, gender violence and the Security Council-- time for a rethink?</a></h4>
+            <h4><a href="https://www.worldecr.com/archive/the-quagmire-of-the-taliban-sanctions-carrot-and-carrot/" target="_blank">
+              The quagmire of the Taliban sanctions: Carrot and carrot?</a></h4>
+          </div>
+          <div class="article-author" style="background: #2e5b6540">
+            <div class="row p-2">
+              <div class="col-sm-2 text-right">
+                <img class="rounded-circle" width="60%" src="images/RC.jpg" alt="">
+              </div>
+              <div class="col-sm-10 pt-2">
+                <div class="author-name">
+                  Enrico Carisch
+                </div>
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer" style="clear: both;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="footer-description pt-sm-5 pb-sm-4">
+              <div class="row">
+                <div class="col-sm-3 col-md-3 d-none d-sm-block">
+                  <div class="footer-logo">
+                    <img src="./images/main-logo.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-1 d-none d-md-block"></div>
+                <div class="col-sm-4 col-md-4">
+                  <div class="footer-links my-5 my-sm-0">
+                    <h3 class="title pb-md-3">
+                      Quick Links
+                    </h3>
+                    <ul>
+                      <li><a href="#">
+                        <i class="fas fa-angle-double-right"></i></i>&nbsp; &nbsp;
+                        About us</a></li>
+                      <li><a href="#">
+                        <i class="fas fa-angle-double-right"></i></i>&nbsp; &nbsp;
+                        CCSI Africa</a></li>
+                      <li><a href="#">
+                        <i class="fas fa-angle-double-right"></i></i>&nbsp; &nbsp;
+                        Training</a></li>
+                      <li><a href="#">
+                        <i class="fas fa-angle-double-right"></i></i>&nbsp; &nbsp;
+                        Best Practices Guide</a></li>
+                      <li><a href="#">
+                        <i class="fas fa-angle-double-right"></i></i>&nbsp; &nbsp;
+                        Gender Violence</a></li>
+                      <li><a href="#">
+                        <i class="fas fa-angle-double-right"></i></i>&nbsp; &nbsp;
+                        Cyber Security</a></li>
+                      <li><a href="#">
+                        <i class="fas fa-angle-double-right"></i></i>&nbsp; &nbsp;
+                        Maritime Security</a></li>
+                      <li><a href="#">
+                        <i class="fas fa-angle-double-right"></i></i>&nbsp; &nbsp;
+                        Research</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-5 col-md-4">
+                  <div class="contact-us">
+                    <h3 class="title pb-md-3">
+                      Contact Us
+                    </h3>
+                    <address>
+                      <i class="fas fa-envelope"></i>&nbsp;&nbsp;
+                        <a href="mailto: Rico.Carisch@comcapint.com">Enrico Carisch, Managing Director</a>
+                      <br>
+                      <i class="fas fa-envelope"></i>&nbsp;&nbsp;
+                        <a href="mailto: Loraine.rickard-martin@comcapint.com">Loraine Rickard-Martin, Chief Executive Officer</a>
+                      <br>
+                      <i class="fas fa-envelope"></i>&nbsp;&nbsp;
+                        <a href="mailto: info@ccsi.global">New York, NY</a>
+                      
+                    </address>
+                  </div>
+                  <div class="extra-inof pt-4">
+                    <p>
+                      CCSI is a non-profit 501 (c )(3) organization.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+    
+
+ 
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      window.addEventListener('scroll',() => {
+       var topMainTitle = document.getElementById('mainTitle').getBoundingClientRect().top;
+       if(topMainTitle == 0) {
+          document.getElementById('mainTitle').classList.add("shrinkMainTitle");
+       }
+       else{
+        document.getElementById('mainTitle').classList.remove("shrinkMainTitle");
+       }
+      });
+      
+    </script>
+    <script>
+      $(document).ready(function(){
+        $(window).scroll(function() {
+         
+            if ($(this).scrollTop() >= 500) { 
+              $("#background-img").attr("class", "bigSize");
+            }
+            else if($(this).scrollTop() < 500){
+              $("#background-img").attr("class", "smallSize");
+            }
+        });
+      });
+       
+        
+    </script>
+  <script>
+    AOS.init();
+
+    
+  </script>
+
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+
+  </body>
+</html>
